@@ -1,2 +1,6 @@
 key.txt
 locations_list.txt
+tracker/tracker/__pycache__/
+tracker/bus/__pycache__/
+tracker/bus/migrations/
+tracker/db.sqlite3
