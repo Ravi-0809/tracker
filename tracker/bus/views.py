@@ -4,9 +4,17 @@ from django.http import HttpResponse
 import json
 
 def map_bus(request):
-    """
-    Testing sphinx documentation:
-    Method currently supports only GET method.
+    """ Function used to locate a point on the map.
+
+    The function only supports GET method for now. The points to be located are fixed for now.
+    The arguments mentioned below are for future use.
+
+    Args:
+        latitude (int): Latitude of vehicle to locate.
+        longitude (int) : Longitude of vehicle to locate.
+
+    Returns:
+        html: renders a html containing the location of the vehicle on a map.
 
     """
 
