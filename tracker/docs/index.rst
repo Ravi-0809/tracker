@@ -10,8 +10,9 @@ Welcome to Tracker's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   modules/bus/modules
+   modules/getting_started/modules
    modules/authentication/modules
+   modules/bus/modules
 
 
 
