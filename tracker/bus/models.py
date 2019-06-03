@@ -1,6 +1,8 @@
 from django.db import models
 import uuid
 from authentication.models import Institute
+import datetime
+from django.utils import timezone
 
 class Bus(models.Model):
     """This model contains the location of a bus.
@@ -19,6 +21,7 @@ class Bus(models.Model):
     institute = models.ForeignKey(Institute, on_delete = models.CASCADE)
     latitude = models.DecimalField(max_digits = 9, decimal_places = 6)
     longitude = models.DecimalField(max_digits = 9, decimal_places = 6)
+    timestamp_location = models.DateTimeField(default = timezone.now())
 
     class Meta():
         app_label = 'bus'

@@ -11,4 +11,5 @@
     - Enter tracker/tracker/docs and run the command `make html`
     - The docs will then be in `tracker/tracker/docs/_build/html`
 
+> Developed by Ravi Bharadwaj C
 > Copyright of SmartCampus
