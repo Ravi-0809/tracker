@@ -1,8 +1,5 @@
-authentication package
+authentication App
 ======================
-
-Submodules
-----------
 
 authentication.models
 ----------------------------
@@ -17,15 +14,6 @@ authentication.views
 ---------------------------
 
 .. automodule:: authentication.views
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: authentication
     :members:
     :undoc-members:
     :show-inheritance:

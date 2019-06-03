@@ -1,8 +1,5 @@
-bus package
+bus App
 ===========
-
-Submodules
-----------
 
 bus.models
 -----------------
@@ -24,15 +21,6 @@ bus.views
 ----------------
 
 .. automodule:: bus.views
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: bus
     :members:
     :undoc-members:
     :show-inheritance:
