@@ -21,7 +21,7 @@ class Bus(models.Model):
     institute = models.ForeignKey(Institute, on_delete = models.CASCADE)
     latitude = models.DecimalField(max_digits = 9, decimal_places = 6)
     longitude = models.DecimalField(max_digits = 9, decimal_places = 6)
-    timestamp_location = models.DateTimeField(default = timezone.now())
+    timestamp_location = models.DateTimeField(default = timezone.now)
 
     class Meta():
         app_label = 'bus'

@@ -24,7 +24,7 @@ def map_bus(request):
     """
 
     if(request.method == 'GET'):
-        data = {'latitude' : 12.970560, 'longitude' : 77.606750, 'key' : "AIzaSyBEpotTUfU39x1DeZomIQ4tFrRaEXazaaU"}
+        data = {'latitude' : 12.9944, 'longitude' : 77.7164, 'key' : "AIzaSyBEpotTUfU39x1DeZomIQ4tFrRaEXazaaU"}
         return render(request, 'static/map.html', data)
     else:
         return HttpResponse(json.dumps({'status' : 'request method not supported currently'}))
